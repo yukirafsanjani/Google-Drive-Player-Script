@@ -8,6 +8,8 @@ if($_POST['submit'] != ""){
 	$file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 }
 ?>
+<?php
+echo
 <!doctype html>
 <html lang="en">
 <head>
@@ -51,3 +53,5 @@ if($_POST['submit'] != ""){
 
 </body>
 </html>
+;
+?>
